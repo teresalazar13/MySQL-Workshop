@@ -30,3 +30,5 @@ INSERT INTO `courses` (name, university_id) VALUES ('Engenharia Biomedica', 2);
 INSERT INTO `courses` (name, university_id) VALUES ('Medicina', 2);
 INSERT INTO `courses` (name, university_id) VALUES ('Engenharia Informatica', 3);
 INSERT INTO `courses` (name, university_id) VALUES ('Medicina', 4);
+
+SELECT * FROM universities;
