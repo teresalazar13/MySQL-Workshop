@@ -21,7 +21,7 @@ CREATE TABLE `courses` (
   `name` varchar(50) NOT NULL,
   `university_id` int(11) NOT NULL,
   PRIMARY KEY (`course_id`),
-	FOREIGN KEY (`university_id`) REFERENCES universities(`university_id`)
+  FOREIGN KEY (`university_id`) REFERENCES universities(`university_id`)
 );
 INSERT INTO `courses` (name, university_id) VALUES ('Engenharia Informatica', 1);
 INSERT INTO `courses` (name, university_id) VALUES ('Engenharia Fisica', 1);
